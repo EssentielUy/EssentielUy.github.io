@@ -1227,6 +1227,27 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
 
 /* Móviles medianos (375px - 480px) */
 @media (min-width: 375px) and (max-width: 480px) {
+  .perfume-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+  }
+  .perfume-card {
+    width: 100%;
+    max-width: 110px;
+    padding: 0.6rem 0.3rem 0.8rem 0.3rem;
+  }
+  .perfume-card img {
+    height: 80px;
+  }
+  .perfume-card h3 {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+  .perfume-card p {
+    font-size: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  
   .venta-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.8rem;
@@ -1277,6 +1298,27 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
 
 /* Móviles pequeños (320px - 374px) */
 @media (min-width: 320px) and (max-width: 374px) {
+  .perfume-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.4rem;
+  }
+  .perfume-card {
+    width: 100%;
+    max-width: 95px;
+    padding: 0.5rem 0.2rem 0.7rem 0.2rem;
+  }
+  .perfume-card img {
+    height: 70px;
+  }
+  .perfume-card h3 {
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+  }
+  .perfume-card p {
+    font-size: 0.55rem;
+    margin-bottom: 0.2rem;
+  }
+  
   .venta-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
@@ -1333,52 +1375,74 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
 
 /* Móviles muy pequeños (menos de 320px) */
 @media (max-width: 319px) {
+  .perfume-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+  }
+  .perfume-card {
+    width: 100%;
+    max-width: 85px;
+    margin: 0;
+    padding: 0.4rem 0.15rem 0.6rem 0.15rem;
+  }
+  .perfume-card img {
+    height: 60px;
+  }
+  .perfume-card h3 {
+    font-size: 0.65rem;
+    margin-bottom: 0.15rem;
+  }
+  .perfume-card p {
+    font-size: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+  
   .venta-grid {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.3rem;
   }
   .venta-card {
     width: 100%;
-    max-width: 280px;
-    margin: 0 auto 0.5rem auto;
-    padding: 0.5rem 0.3rem 0.7rem 0.3rem;
+    max-width: 120px;
+    margin: 0;
+    padding: 0.4rem 0.2rem 0.6rem 0.2rem;
   }
   .catalogo-venta {
     padding: 0.6rem 0.2rem;
     margin: 0.8rem 0.2rem;
   }
   .catalogo-venta h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 0.6rem;
   }
   .venta-card h3 {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     margin-bottom: 0.2rem;
   }
   .venta-card p {
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     margin-bottom: 0.3rem;
   }
   .precio {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     margin: 0.3rem 0 0.2rem 0;
   }
   .btn-comprar {
-    font-size: 0.65rem;
-    padding: 0.3rem 0.6rem;
+    font-size: 0.6rem;
+    padding: 0.3rem 0.5rem;
     margin-top: 0.2rem;
   }
   .hero h1 {
     font-size: 1.2rem;
   }
   .hero p {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
   .logo {
     font-size: 1.4rem;
   }
   .venta-card img {
-    height: 120px;
+    height: 80px;
   }
   .navbar {
     padding: 0.4rem 0.2rem;
