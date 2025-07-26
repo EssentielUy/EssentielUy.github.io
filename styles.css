@@ -1258,7 +1258,7 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
   }
   .venta-card {
     width: 100%;
-    max-width: 160px;
+    max-width: 152px;
     padding: 0.8rem 0.5rem 1rem 0.5rem;
   }
   .venta-card img {
@@ -1267,8 +1267,9 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
     object-position: center;
   }
   .catalogo-venta {
-    padding: 1rem 0.5rem;
-    margin: 1.5rem 0.5rem;
+    padding: 1rem 0.48rem;
+    margin: 1.5rem 0.48rem;
+    max-width: 95%;
   }
   .catalogo-venta h2 {
     font-size: 1.4rem;
@@ -1331,7 +1332,7 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
   }
   .venta-card {
     width: 100%;
-    max-width: 140px;
+    max-width: 133px;
     padding: 0.6rem 0.4rem 0.8rem 0.4rem;
   }
   .venta-card img {
@@ -1340,8 +1341,9 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
     object-position: center;
   }
   .catalogo-venta {
-    padding: 0.8rem 0.3rem;
-    margin: 1rem 0.3rem;
+    padding: 0.8rem 0.29rem;
+    margin: 1rem 0.29rem;
+    max-width: 95%;
   }
   .catalogo-venta h2 {
     font-size: 1.2rem;
@@ -1411,7 +1413,7 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
   }
   .venta-card {
     width: 100%;
-    max-width: 120px;
+    max-width: 114px;
     margin: 0;
     padding: 0.4rem 0.2rem 0.6rem 0.2rem;
   }
@@ -1421,8 +1423,9 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
     object-position: center;
   }
   .catalogo-venta {
-    padding: 0.6rem 0.2rem;
-    margin: 0.8rem 0.2rem;
+    padding: 0.6rem 0.19rem;
+    margin: 0.8rem 0.19rem;
+    max-width: 95%;
   }
   .catalogo-venta h2 {
     font-size: 1rem;
