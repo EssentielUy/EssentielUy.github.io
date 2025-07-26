@@ -1047,93 +1047,103 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
 .catalogo-venta {
   margin: 3rem auto 2rem auto;
   background: linear-gradient(120deg, #232526 0%, #181818 100%);
-  border-radius: 18px;
+  border-radius: 16px;
   box-shadow: 0 2px 16px #c59d5f22;
-  padding: 2.5rem 1.5rem;
-  border: 2px solid #c59d5f;
+  padding: 2.25rem 1.35rem;
+  border: 1.8px solid #c59d5f;
   max-width: 1100px;
 }
+
 .catalogo-venta h2 {
   color: #c59d5f;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
   font-family: 'Montserrat', serif;
   letter-spacing: 2px;
   text-shadow: 0 2px 8px #000;
-  font-size: 2.2rem;
+  font-size: 1.98rem;
   font-weight: 700;
 }
+
 .venta-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 1.8rem;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .venta-card {
   background: linear-gradient(120deg, #232526 0%, #181818 100%);
-  border-radius: 14px;
+  border-radius: 12px;
   box-shadow: 0 2px 12px #bfc1c2aa;
-  padding: 1.2rem 1rem 1.5rem 1rem;
+  padding: 1.08rem 0.9rem 1.35rem 0.9rem;
   text-align: center;
-  width: 260px;
-  margin-bottom: 1.5rem;
-  border: 2px solid #c59d5f;
+  width: 234px;
+  margin-bottom: 1.35rem;
+  border: 1.8px solid #c59d5f;
   transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
   color: #f5f5f5;
 }
+
 .venta-card:hover {
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 8px 32px #c59d5f88;
   border-color: #bfc1c2;
 }
+
 .venta-card img {
   width: 100%;
-  height: 180px;
+  height: 162px;
   object-fit: cover;
   object-position: center 50%;
-  border-radius: 10px;
-  margin-bottom: 1rem;
+  border-radius: 9px;
+  margin-bottom: 0.9rem;
   box-shadow: 0 2px 8px #bfc1c2aa;
-  border: 1.5px solid #bfc1c2;
+  border: 1.35px solid #bfc1c2;
 }
+
 .venta-card img[src*="9pm.jpg"] {
   object-fit: contain;
   background: #232526;
 }
+
 .venta-card h3 {
   color: #c59d5f;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.08rem;
+  margin-bottom: 0.45rem;
   font-family: 'Montserrat', serif;
   letter-spacing: 1.2px;
   text-shadow: 0 2px 8px #000;
 }
+
 .venta-card p {
   color: #bfc1c2;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-shadow: 0 2px 8px #000;
 }
+
 .precio {
   display: block;
   color: #fffbe6;
-  font-size: 1.15rem;
+  font-size: 1.035rem;
   font-weight: 700;
-  margin: 1rem 0 0.7rem 0;
+  margin: 0.9rem 0 0.63rem 0;
   letter-spacing: 1px;
 }
+
 .btn-comprar {
   background: linear-gradient(90deg, #c59d5f 0%, #bfc1c2 100%);
   color: #181818;
-  font-size: 1.1rem;
+  font-size: 0.99rem;
   font-weight: 700;
   border: none;
-  border-radius: 30px;
-  padding: 0.8rem 2rem;
+  border-radius: 27px;
+  padding: 0.72rem 1.8rem;
   box-shadow: 0 2px 8px #c59d5f44;
   transition: background 0.2s, box-shadow 0.2s, color 0.2s;
   cursor: pointer;
-  margin-top: 0.5rem;
+  margin-top: 0.45rem;
 }
 .btn-comprar:hover {
   background: linear-gradient(90deg, #bfc1c2 0%, #c59d5f 100%);
