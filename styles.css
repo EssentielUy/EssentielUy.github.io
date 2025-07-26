@@ -1448,3 +1448,136 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
       display: none;
   }
 }
+
+/* Reducción general del 20% para toda la página */
+.logo {
+  font-size: 2.16rem; /* Reducido de 2.7rem */
+}
+
+.hero h1 {
+  font-size: 2.24rem; /* Reducido de 2.8rem */
+}
+
+.hero p {
+  font-size: 1.04rem; /* Reducido de 1.3rem */
+}
+
+.catalogo h2, .services h2 {
+  font-size: 1.76rem; /* Reducido de 2.2rem */
+}
+
+.catalogo-venta h2 {
+  font-size: 1.76rem; /* Reducido de 2.2rem */
+}
+
+.perfume-card h3, .venta-card h3 {
+  font-size: 0.96rem; /* Reducido de 1.2rem */
+}
+
+.perfume-card p, .venta-card p {
+  font-size: 0.8rem; /* Reducido de 1rem */
+}
+
+.precio {
+  font-size: 0.92rem; /* Reducido de 1.15rem */
+}
+
+.btn-comprar {
+  font-size: 0.88rem; /* Reducido de 1.1rem */
+  padding: 0.64rem 1.6rem; /* Reducido de 0.8rem 2rem */
+}
+
+.cta-btn {
+  font-size: 0.88rem; /* Reducido de 1.1rem */
+  padding: 0.72rem 1.76rem; /* Reducido de 0.9rem 2.2rem */
+}
+
+.perfume-hero .cta-btn {
+  font-size: 0.96rem; /* Reducido de 1.2rem */
+  padding: 0.8rem 2rem; /* Reducido de 1rem 2.5rem */
+}
+
+.nav-links a {
+  font-size: 0.88rem; /* Reducido de 1.1rem */
+}
+
+.perfume-card, .venta-card {
+  width: 208px; /* Reducido de 260px */
+  padding: 0.96rem 0.8rem 1.2rem 0.8rem; /* Reducido de 1.2rem 1rem 1.5rem 1rem */
+}
+
+.perfume-card img, .venta-card img {
+  height: 144px; /* Reducido de 180px */
+}
+
+.catalogo, .services, .catalogo-venta {
+  padding: 2rem 1.2rem; /* Reducido de 2.5rem 1.5rem */
+  margin-bottom: 2.4rem; /* Reducido de 3rem */
+}
+
+.service-cards {
+  gap: 1.6rem; /* Reducido de 2rem */
+}
+
+.card {
+  padding: 1.2rem; /* Reducido de 1.5rem */
+  min-width: 176px; /* Reducido de 220px */
+}
+
+.venta-grid {
+  gap: 1.6rem; /* Reducido de 2rem */
+}
+
+.perfume-grid {
+  gap: 1.6rem; /* Reducido de 2rem */
+}
+
+main {
+  padding: 1.6rem 0.8rem; /* Reducido de 2rem 1rem */
+}
+
+.navbar {
+  padding: 1.2rem 2.4rem 0 2.4rem; /* Reducido de 1.5rem 3rem 0 3rem */
+}
+
+.hero {
+  padding: 3.2rem 1.6rem 1.6rem 1.6rem; /* Reducido de 4rem 2rem 2rem 2rem */
+}
+
+.perfume-hero {
+  min-height: 336px; /* Reducido de 420px */
+}
+
+.hero-logo {
+  font-size: 2.56rem; /* Reducido de 3.2rem */
+}
+
+.perfume-hero h1 {
+  font-size: 1.76rem; /* Reducido de 2.2rem */
+}
+
+.perfume-hero p {
+  font-size: 0.96rem; /* Reducido de 1.2rem */
+}
+
+.instagram-card h3 a.instagram-link {
+  font-size: 1.6rem; /* Reducido de 2rem */
+  padding: 0.4em 1.2em; /* Reducido de 0.5em 1.5em */
+}
+
+.branding-card h3, .workshops-card h3 {
+  font-size: 0.96rem; /* Reducido de 1.2rem */
+}
+
+.branding-card p, .workshops-card p {
+  font-size: 0.84rem; /* Reducido de 1.05rem */
+}
+
+.instagram-card p {
+  font-size: 0.84rem; /* Reducido de 1.05rem */
+}
+
+footer {
+  padding: 1.2rem 0; /* Reducido de 1.5rem 0 */
+  font-size: 0.8rem; /* Reducido de 1rem */
+}
