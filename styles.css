@@ -738,6 +738,8 @@ footer .logo, footer .logo::after {
   transition: background 0.2s, box-shadow 0.2s, color 0.2s;
   cursor: pointer;
   margin-top: 0.43rem;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .btn-comprar:hover {
