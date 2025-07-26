@@ -412,12 +412,6 @@ footer .logo, footer .logo::after {
   box-shadow: 0 2px 8px #bfc1c2aa;
   border: 1.5px solid #bfc1c2;
 }
-.perfume-card img[alt="Perfume Cítricos"] {
-  object-position: center 35%;
-}
-.perfume-card img[alt="Perfume Amaderados"] {
-  object-position: center 55%;
-}
 
 .perfume-card h3 {
   color: #c59d5f;
@@ -1650,4 +1644,72 @@ main {
 footer {
   padding: 1.2rem 0; /* Reducido de 1.5rem 0 */
   font-size: 0.8rem; /* Reducido de 1rem */
+}
+
+@media (max-width: 767px) {
+  .services {
+    padding: 1rem 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+  }
+  
+  .service-cards {
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  
+  .card {
+    flex: 1 1 120px;
+    min-width: 100px;
+    padding: 0.8rem 0.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .instagram-card h3 a.instagram-link {
+    font-size: 1.2rem;
+    padding: 0.3em 0.8em;
+  }
+  
+  .branding-card h3, .workshops-card h3 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .branding-card p, .workshops-card p {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+  }
+  
+  .instagram-card p {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-cards {
+    flex-direction: row;
+    gap: 0.3rem;
+  }
+  
+  .card {
+    flex: 1 1 100px;
+    min-width: 80px;
+    padding: 0.6rem 0.3rem;
+  }
+  
+  .instagram-card h3 a.instagram-link {
+    font-size: 1rem;
+    padding: 0.2em 0.6em;
+  }
+  
+  .branding-card h3, .workshops-card h3 {
+    font-size: 0.7rem;
+  }
+  
+  .branding-card p, .workshops-card p, .instagram-card p {
+    font-size: 0.6rem;
+  }
 }
