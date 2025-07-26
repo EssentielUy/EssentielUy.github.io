@@ -1146,3 +1146,305 @@ main, .about, .catalogo, .services, .branding-card, .workshops-card, .instagram-
   color: #232526;
   box-shadow: 0 4px 16px #c59d5f88;
 } 
+
+/* Breakpoints específicos para diferentes dispositivos */
+
+/* Tablets grandes (1024px y más) */
+@media (min-width: 1024px) {
+  .venta-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  .venta-card {
+    width: 260px;
+  }
+  .catalogo-venta h2 {
+    font-size: 2.2rem;
+  }
+}
+
+/* Tablets medianas (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .venta-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .venta-card {
+    width: 100%;
+    max-width: 220px;
+  }
+  .catalogo-venta h2 {
+    font-size: 1.8rem;
+  }
+  .venta-card h3 {
+    font-size: 1.1rem;
+  }
+  .venta-card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets pequeñas y móviles grandes (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .venta-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .venta-card {
+    width: 100%;
+    max-width: 180px;
+  }
+  .catalogo-venta {
+    padding: 1.5rem 1rem;
+    margin: 2rem 1rem;
+  }
+  .catalogo-venta h2 {
+    font-size: 1.6rem;
+  }
+  .venta-card h3 {
+    font-size: 1rem;
+  }
+  .venta-card p {
+    font-size: 0.85rem;
+  }
+  .precio {
+    font-size: 1rem;
+  }
+  .btn-comprar {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+}
+
+/* Móviles medianos (375px - 480px) */
+@media (min-width: 375px) and (max-width: 480px) {
+  .venta-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+  .venta-card {
+    width: 100%;
+    max-width: 160px;
+    padding: 0.8rem 0.5rem 1rem 0.5rem;
+  }
+  .catalogo-venta {
+    padding: 1rem 0.5rem;
+    margin: 1.5rem 0.5rem;
+  }
+  .catalogo-venta h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .venta-card h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+  .venta-card p {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .precio {
+    font-size: 0.9rem;
+    margin: 0.5rem 0 0.3rem 0;
+  }
+  .btn-comprar {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.3rem;
+  }
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+  .hero p {
+    font-size: 0.9rem;
+  }
+  .logo {
+    font-size: 1.8rem;
+  }
+  .venta-card img {
+    height: 120px;
+  }
+}
+
+/* Móviles pequeños (320px - 374px) */
+@media (min-width: 320px) and (max-width: 374px) {
+  .venta-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  .venta-card {
+    width: 100%;
+    max-width: 140px;
+    padding: 0.6rem 0.4rem 0.8rem 0.4rem;
+  }
+  .catalogo-venta {
+    padding: 0.8rem 0.3rem;
+    margin: 1rem 0.3rem;
+  }
+  .catalogo-venta h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  .venta-card h3 {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+  .venta-card p {
+    font-size: 0.65rem;
+    margin-bottom: 0.4rem;
+  }
+  .precio {
+    font-size: 0.8rem;
+    margin: 0.4rem 0 0.2rem 0;
+  }
+  .btn-comprar {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
+    margin-top: 0.2rem;
+  }
+  .hero h1 {
+    font-size: 1.4rem;
+  }
+  .hero p {
+    font-size: 0.75rem;
+  }
+  .logo {
+    font-size: 1.6rem;
+  }
+  .venta-card img {
+    height: 100px;
+  }
+  .navbar {
+    padding: 0.5rem 0.3rem;
+  }
+  main {
+    padding: 0.8rem 0.3rem;
+  }
+}
+
+/* Móviles muy pequeños (menos de 320px) */
+@media (max-width: 319px) {
+  .venta-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .venta-card {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto 0.5rem auto;
+    padding: 0.5rem 0.3rem 0.7rem 0.3rem;
+  }
+  .catalogo-venta {
+    padding: 0.6rem 0.2rem;
+    margin: 0.8rem 0.2rem;
+  }
+  .catalogo-venta h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+  }
+  .venta-card h3 {
+    font-size: 0.75rem;
+    margin-bottom: 0.2rem;
+  }
+  .venta-card p {
+    font-size: 0.6rem;
+    margin-bottom: 0.3rem;
+  }
+  .precio {
+    font-size: 0.75rem;
+    margin: 0.3rem 0 0.2rem 0;
+  }
+  .btn-comprar {
+    font-size: 0.65rem;
+    padding: 0.3rem 0.6rem;
+    margin-top: 0.2rem;
+  }
+  .hero h1 {
+    font-size: 1.2rem;
+  }
+  .hero p {
+    font-size: 0.75rem;
+  }
+  .logo {
+    font-size: 1.4rem;
+  }
+  .venta-card img {
+    height: 120px;
+  }
+  .navbar {
+    padding: 0.4rem 0.2rem;
+  }
+  main {
+    padding: 0.6rem 0.2rem;
+  }
+}
+
+/* Orientación landscape en móviles */
+@media (max-width: 767px) and (orientation: landscape) {
+  .venta-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+  }
+  .venta-card {
+    max-width: 160px;
+  }
+  .hero {
+    padding: 1rem 1rem;
+  }
+  .hero h1 {
+    font-size: 1.4rem;
+  }
+  .hero p {
+    font-size: 0.8rem;
+  }
+} 
+
+.resolucion {
+  width: 99%;
+  text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+  .desktop {
+      display: none;
+  }
+  .tablet {
+      display: none;
+  }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .desktop {
+      display: none;
+  }
+  .movil {
+      display: none;
+  }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+  .tablet {
+      display: none;
+  }
+  .movil {
+      display: none;
+  }
+}
